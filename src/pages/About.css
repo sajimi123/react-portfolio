@@ -1,0 +1,14 @@
+img{
+    margin-left: 70px;
+    margin-top: 80px;
+    transform: rotate(180);
+transition: 2s;
+}
+img:hover{
+  transform: rotate(360deg);
+}
+h2{
+    margin-top: 50px;
+    
+    font-style:normal;
+}

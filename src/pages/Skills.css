@@ -1,0 +1,14 @@
+.card{
+   color:black;
+   box-shadow: inset;
+   background-color: bisque;
+   margin-top: 50px;
+margin-left: 20px;
+ border-radius: 21px;
+background:bisque;
+box-shadow:  11px 11px 22px #27272765,
+             -11px -11px 22px #181211;
+             display: flex;
+             justify-content: center;
+             align-items: center;
+}
