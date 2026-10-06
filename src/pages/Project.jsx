@@ -9,7 +9,14 @@ export default function Project() {
       
       <Card.Body>
         <Card.Title>FOOD</Card.Title>
-        <Card.Text>Foody is a restaurant-themed website created to provide visitors with an engaging online dining experience. </Card.Text></Card.Body>
+      
+        <Card.Text>Foody is a restaurant-themed website created to provide visitors with an engaging online dining experience. </Card.Text>
+        <Card.Text>
+         
+        </Card.Text>
+        </Card.Body>
+   
+   
     </Card>
       <Card style={{ width: '18rem' , height:'10rem'}}>
       
