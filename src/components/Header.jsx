@@ -1,19 +1,21 @@
+
 import React from 'react'
 import './Header.css'
 import { Link } from 'react-router-dom'
+
 export default function Header() {
   return (
     <div>
-
-      <header style={{backgroundColor:'black',color:'bisque'}}>
+      <header style={{ backgroundColor: 'black', color: 'bisque' }}>
         <h1>PORTFOLIO</h1>
+
         <ul>
-            <li><a href='/'>Home</a></li>
-            <li><Link to={'/about'}>About</Link></li>
-            <li><a href='/skill'>Skills</a></li>
-            <li><a href='/education'>Education</a></li>
-            <li><a href='/project'>Project</a></li>
-            <li><a href='/contact'>Contact</a></li>
+          <li><Link to="/">Home</Link></li>
+          <li><Link to="/about">About</Link></li>
+          <li><Link to="/skill">Skills</Link></li>
+          <li><Link to="/education">Education</Link></li>
+          <li><Link to="/project">Project</Link></li>
+          <li><Link to="/contact">Contact</Link></li>
         </ul>
       </header>
     </div>
